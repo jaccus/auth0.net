@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IApiConnection
    ">
-    <meta name="generator" content="docfx 1.8.0.0">
+    <meta name="generator" content="docfx 2.5.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="../">
+              <a class="navbar-brand" href="../index.html">
                 <img id="logo" class="svg" src="../logo.svg" alt="">
               </a>
             </div>
@@ -67,11 +67,10 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content">
               
-              <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
-              <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L11" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              
               <h1 id="Auth0_Core_Http_IApiConnection" data-uid="Auth0.Core.Http.IApiConnection">Interface IApiConnection
               </h1>
-              <div class="markdown level0 summary"><p>The communication layer between the various API clients and the actual API back-end. All API calls happen through this interface.</p>
+              <div class="markdown level0 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The communication layer between the various API clients and the actual API back-end. All API calls happen through this interface.</p>
 </div>
               <div class="markdown level0 conceptual"></div>
               <h6><strong>Namespace</strong>:Auth0.Core.Http</h6>
@@ -84,18 +83,18 @@
               </h3>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection_DeleteAsync__1_System_String_IDictionary_System_String_System_String__.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection.DeleteAsync%60%601(System.String%2CIDictionary%7BSystem.String%2CSystem.String%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection_DeleteAsync__1_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_String__.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection.DeleteAsync%60%601(System.String%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.String%7D%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L20">View Source</a>
+                <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L21">View Source</a>
               </span>
-              <h4 id="Auth0_Core_Http_IApiConnection_DeleteAsync__1_System_String_IDictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.DeleteAsync``1(System.String,IDictionary{System.String,System.String})">DeleteAsync&lt;T&gt;(String, IDictionary&lt;String, String&gt;)</h4>
-              <div class="markdown level1 summary"><p>Performs an HTTP DELETE.</p>
+              <h4 id="Auth0_Core_Http_IApiConnection_DeleteAsync__1_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.DeleteAsync``1(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})">DeleteAsync&lt;T&gt;(String, IDictionary&lt;String, String&gt;, IDictionary&lt;String, String&gt;)</h4>
+              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs an HTTP DELETE.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">Task&lt;T&gt; DeleteAsync&lt;T&gt;(string resource, IDictionary&lt;string, string&gt; urlSegments)where T : class</code></pre>
+                <pre><code class="lang-csharp hljs">Task&lt;T&gt; DeleteAsync&lt;T&gt;(string resource, IDictionary&lt;string, string&gt; urlSegments, IDictionary&lt;string, string&gt; queryStrings)where T : class</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -110,14 +109,19 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>resource</em></td>
-                    <td><p>The resource.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The resource.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>urlSegments</em></td>
-                    <td><p>The URL segments.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The URL segments.</p>
 </td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><em>queryStrings</em></td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
@@ -131,9 +135,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">Task</span>&lt;T&gt;</td>
-                    <td><p>Task<t>.<p>
-</t></td>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;T&gt;.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -154,13 +158,13 @@
               </table>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection_GetAsync__1_System_String_IDictionary_System_String_System_String__IDictionary_System_String_System_String__IDictionary_System_String_System_Object__JsonConverter___.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection.GetAsync%60%601(System.String%2CIDictionary%7BSystem.String%2CSystem.String%7D%2CIDictionary%7BSystem.String%2CSystem.String%7D%2CIDictionary%7BSystem.String%2CSystem.Object%7D%2CJsonConverter%5B%5D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection_GetAsync__1_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_Object__Newtonsoft_Json_JsonConverter___.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection.GetAsync%60%601(System.String%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.String%7D%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.String%7D%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.Object%7D%2CNewtonsoft.Json.JsonConverter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L32">View Source</a>
+                <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L33">View Source</a>
               </span>
-              <h4 id="Auth0_Core_Http_IApiConnection_GetAsync__1_System_String_IDictionary_System_String_System_String__IDictionary_System_String_System_String__IDictionary_System_String_System_Object__JsonConverter___" data-uid="Auth0.Core.Http.IApiConnection.GetAsync``1(System.String,IDictionary{System.String,System.String},IDictionary{System.String,System.String},IDictionary{System.String,System.Object},JsonConverter[])">GetAsync&lt;T&gt;(String, IDictionary&lt;String, String&gt;, IDictionary&lt;String, String&gt;, IDictionary&lt;String, Object&gt;, JsonConverter[])</h4>
-              <div class="markdown level1 summary"><p>Performs an HTTP GET.</p>
+              <h4 id="Auth0_Core_Http_IApiConnection_GetAsync__1_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_Object__Newtonsoft_Json_JsonConverter___" data-uid="Auth0.Core.Http.IApiConnection.GetAsync``1(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object},Newtonsoft.Json.JsonConverter[])">GetAsync&lt;T&gt;(String, IDictionary&lt;String, String&gt;, IDictionary&lt;String, String&gt;, IDictionary&lt;String, Object&gt;, JsonConverter[])</h4>
+              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs an HTTP GET.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -180,31 +184,31 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>resource</em></td>
-                    <td><p>The resource.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The resource.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>urlSegments</em></td>
-                    <td><p>The URL segments.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The URL segments.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>queryStrings</em></td>
-                    <td><p>The query strings.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The query strings.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
                     <td><em>headers</em></td>
-                    <td><p>The headers.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The headers.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">JsonConverter</span>[]</td>
+                    <td><span class="xref">Newtonsoft.Json.JsonConverter</span>[]</td>
                     <td><em>converters</em></td>
-                    <td><p>The list of <see cref="!:JsonConverter"></see> to use during deserialization.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The list of <span class="xref">JsonConverter</span> to use during deserialization.</p>
 </td>
                   </tr>
                 </tbody>
@@ -219,9 +223,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">Task</span>&lt;T&gt;</td>
-                    <td><p>Task<t>.<p>
-</t></td>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;T&gt;.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -242,13 +246,13 @@
               </table>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection_PatchAsync__1_System_String_System_Object_Dictionary_System_String_System_String__.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection.PatchAsync%60%601(System.String%2CSystem.Object%2CDictionary%7BSystem.String%2CSystem.String%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection_PatchAsync__1_System_String_System_Object_System_Collections_Generic_Dictionary_System_String_System_String__.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection.PatchAsync%60%601(System.String%2CSystem.Object%2CSystem.Collections.Generic.Dictionary%7BSystem.String%2CSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L56">View Source</a>
+                <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L57">View Source</a>
               </span>
-              <h4 id="Auth0_Core_Http_IApiConnection_PatchAsync__1_System_String_System_Object_Dictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.PatchAsync``1(System.String,System.Object,Dictionary{System.String,System.String})">PatchAsync&lt;T&gt;(String, Object, Dictionary&lt;String, String&gt;)</h4>
-              <div class="markdown level1 summary"><p>Performs an HTTP PATCH.</p>
+              <h4 id="Auth0_Core_Http_IApiConnection_PatchAsync__1_System_String_System_Object_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.PatchAsync``1(System.String,System.Object,System.Collections.Generic.Dictionary{System.String,System.String})">PatchAsync&lt;T&gt;(String, Object, Dictionary&lt;String, String&gt;)</h4>
+              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs an HTTP PATCH.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -268,19 +272,19 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>resource</em></td>
-                    <td><p>The resource.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The resource.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Object</span></td>
                     <td><em>body</em></td>
-                    <td><p>The body.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The body.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>urlSegments</em></td>
-                    <td><p>The URL segments.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The URL segments.</p>
 </td>
                   </tr>
                 </tbody>
@@ -295,9 +299,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">Task</span>&lt;T&gt;</td>
-                    <td><p>Task<t>.<p>
-</t></td>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;T&gt;.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -318,13 +322,13 @@
               </table>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection_PostAsync__1_System_String_System_Object_IDictionary_System_String_System_Object__IList_Auth0_Core_Http_FileUploadParameter__IDictionary_System_String_System_String__IDictionary_System_String_System_Object__IDictionary_System_String_System_String__.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection.PostAsync%60%601(System.String%2CSystem.Object%2CIDictionary%7BSystem.String%2CSystem.Object%7D%2CIList%7BAuth0.Core.Http.FileUploadParameter%7D%2CIDictionary%7BSystem.String%2CSystem.String%7D%2CIDictionary%7BSystem.String%2CSystem.Object%7D%2CIDictionary%7BSystem.String%2CSystem.String%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection_PostAsync__1_System_String_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IList_Auth0_Core_Http_FileUploadParameter__System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IDictionary_System_String_System_String__.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection.PostAsync%60%601(System.String%2CSystem.Object%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.Object%7D%2CSystem.Collections.Generic.IList%7BAuth0.Core.Http.FileUploadParameter%7D%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.String%7D%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.Object%7D%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L46">View Source</a>
+                <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L47">View Source</a>
               </span>
-              <h4 id="Auth0_Core_Http_IApiConnection_PostAsync__1_System_String_System_Object_IDictionary_System_String_System_Object__IList_Auth0_Core_Http_FileUploadParameter__IDictionary_System_String_System_String__IDictionary_System_String_System_Object__IDictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.PostAsync``1(System.String,System.Object,IDictionary{System.String,System.Object},IList{Auth0.Core.Http.FileUploadParameter},IDictionary{System.String,System.String},IDictionary{System.String,System.Object},IDictionary{System.String,System.String})">PostAsync&lt;T&gt;(String, Object, IDictionary&lt;String, Object&gt;, IList&lt;FileUploadParameter&gt;, IDictionary&lt;String, String&gt;, IDictionary&lt;String, Object&gt;, IDictionary&lt;String, String&gt;)</h4>
-              <div class="markdown level1 summary"><p>Performs an HTTP POST.</p>
+              <h4 id="Auth0_Core_Http_IApiConnection_PostAsync__1_System_String_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IList_Auth0_Core_Http_FileUploadParameter__System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.PostAsync``1(System.String,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{Auth0.Core.Http.FileUploadParameter},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.String})">PostAsync&lt;T&gt;(String, Object, IDictionary&lt;String, Object&gt;, IList&lt;FileUploadParameter&gt;, IDictionary&lt;String, String&gt;, IDictionary&lt;String, Object&gt;, IDictionary&lt;String, String&gt;)</h4>
+              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs an HTTP POST.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -344,43 +348,43 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>resource</em></td>
-                    <td><p>The resource.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The resource.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Object</span></td>
                     <td><em>body</em></td>
-                    <td><p>The body.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The body.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
                     <td><em>parameters</em></td>
-                    <td><p>The parameters.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The parameters.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IList</span>&lt;<a class="xref" href="Auth0.Core.Http.FileUploadParameter.html#Auth0_Core_Http_FileUploadParameter">FileUploadParameter</a>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Auth0.Core.Http.FileUploadParameter.html#Auth0_Core_Http_FileUploadParameter">FileUploadParameter</a>&gt;</td>
                     <td><em>fileParameters</em></td>
-                    <td><p>The file parameters.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The file parameters.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>urlSegments</em></td>
-                    <td><p>The URL segments.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The URL segments.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
                     <td><em>headers</em></td>
-                    <td><p>The headers.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The headers.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>queryStrings</em></td>
-                    <td><p>The query strings.</p>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The query strings.</p>
 </td>
                   </tr>
                 </tbody>
@@ -395,9 +399,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">Task</span>&lt;T&gt;</td>
-                    <td><p>Task<t>.<p>
-</t></td>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;T&gt;.</p>
+</td>
                   </tr>
                 </tbody>
               </table>
@@ -420,9 +424,21 @@
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
-            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-            </nav>
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/auth0/auth0.net/new/master/docs/apispec/new?filename=Auth0_Core_Http_IApiConnection.md&amp;value=---%0Auid%3A%20Auth0.Core.Http.IApiConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -434,6 +450,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
+            
             <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
@@ -441,8 +458,8 @@
     </div>
     
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

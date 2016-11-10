@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IApiConnection
    ">
-    <meta name="generator" content="docfx 2.5.3.0">
+    <meta name="generator" content="docfx 2.7.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,7 +70,7 @@
               
               <h1 id="Auth0_Core_Http_IApiConnection" data-uid="Auth0.Core.Http.IApiConnection">Interface IApiConnection
               </h1>
-              <div class="markdown level0 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The communication layer between the various API clients and the actual API back-end. All API calls happen through this interface.</p>
+              <div class="markdown level0 summary"><p>The communication layer between the various API clients and the actual API back-end. All API calls happen through this interface.</p>
 </div>
               <div class="markdown level0 conceptual"></div>
               <h6><strong>Namespace</strong>:Auth0.Core.Http</h6>
@@ -89,7 +89,7 @@
                 <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L21">View Source</a>
               </span>
               <h4 id="Auth0_Core_Http_IApiConnection_DeleteAsync__1_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.DeleteAsync``1(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})">DeleteAsync&lt;T&gt;(String, IDictionary&lt;String, String&gt;, IDictionary&lt;String, String&gt;)</h4>
-              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs an HTTP DELETE.</p>
+              <div class="markdown level1 summary"><p>Performs an HTTP DELETE.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -109,17 +109,17 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>resource</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The resource.</p>
+                    <td><p>The resource.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>urlSegments</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The URL segments.</p>
+                    <td><p>The URL segments.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>queryStrings</em></td>
                     <td></td>
                   </tr>
@@ -135,8 +135,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;T&gt;.</p>
+                    <td><span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span>&lt;T&gt;</td>
+                    <td><p>Task&lt;T&gt;.</p>
 </td>
                   </tr>
                 </tbody>
@@ -164,7 +164,7 @@
                 <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L33">View Source</a>
               </span>
               <h4 id="Auth0_Core_Http_IApiConnection_GetAsync__1_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_Object__Newtonsoft_Json_JsonConverter___" data-uid="Auth0.Core.Http.IApiConnection.GetAsync``1(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object},Newtonsoft.Json.JsonConverter[])">GetAsync&lt;T&gt;(String, IDictionary&lt;String, String&gt;, IDictionary&lt;String, String&gt;, IDictionary&lt;String, Object&gt;, JsonConverter[])</h4>
-              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs an HTTP GET.</p>
+              <div class="markdown level1 summary"><p>Performs an HTTP GET.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -184,31 +184,31 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>resource</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The resource.</p>
+                    <td><p>The resource.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>urlSegments</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The URL segments.</p>
+                    <td><p>The URL segments.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>queryStrings</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The query strings.</p>
+                    <td><p>The query strings.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
                     <td><em>headers</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The headers.</p>
+                    <td><p>The headers.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">Newtonsoft.Json.JsonConverter</span>[]</td>
                     <td><em>converters</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The list of <span class="xref">JsonConverter</span> to use during deserialization.</p>
+                    <td><p>The list of <span class="xref">Newtonsoft.Json.JsonConverter</span> to use during deserialization.</p>
 </td>
                   </tr>
                 </tbody>
@@ -223,8 +223,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;T&gt;.</p>
+                    <td><span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span>&lt;T&gt;</td>
+                    <td><p>Task&lt;T&gt;.</p>
 </td>
                   </tr>
                 </tbody>
@@ -252,7 +252,7 @@
                 <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L57">View Source</a>
               </span>
               <h4 id="Auth0_Core_Http_IApiConnection_PatchAsync__1_System_String_System_Object_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.PatchAsync``1(System.String,System.Object,System.Collections.Generic.Dictionary{System.String,System.String})">PatchAsync&lt;T&gt;(String, Object, Dictionary&lt;String, String&gt;)</h4>
-              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs an HTTP PATCH.</p>
+              <div class="markdown level1 summary"><p>Performs an HTTP PATCH.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -272,19 +272,19 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>resource</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The resource.</p>
+                    <td><p>The resource.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Object</span></td>
                     <td><em>body</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The body.</p>
+                    <td><p>The body.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>urlSegments</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The URL segments.</p>
+                    <td><p>The URL segments.</p>
 </td>
                   </tr>
                 </tbody>
@@ -299,8 +299,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;T&gt;.</p>
+                    <td><span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span>&lt;T&gt;</td>
+                    <td><p>Task&lt;T&gt;.</p>
 </td>
                   </tr>
                 </tbody>
@@ -328,7 +328,7 @@
                 <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Core/Http/IApiConnection.cs/#L47">View Source</a>
               </span>
               <h4 id="Auth0_Core_Http_IApiConnection_PostAsync__1_System_String_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IList_Auth0_Core_Http_FileUploadParameter__System_Collections_Generic_IDictionary_System_String_System_String__System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Auth0.Core.Http.IApiConnection.PostAsync``1(System.String,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{Auth0.Core.Http.FileUploadParameter},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.String})">PostAsync&lt;T&gt;(String, Object, IDictionary&lt;String, Object&gt;, IList&lt;FileUploadParameter&gt;, IDictionary&lt;String, String&gt;, IDictionary&lt;String, Object&gt;, IDictionary&lt;String, String&gt;)</h4>
-              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs an HTTP POST.</p>
+              <div class="markdown level1 summary"><p>Performs an HTTP POST.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -348,43 +348,43 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>resource</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The resource.</p>
+                    <td><p>The resource.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.Object</span></td>
                     <td><em>body</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The body.</p>
+                    <td><p>The body.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
                     <td><em>parameters</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The parameters.</p>
+                    <td><p>The parameters.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Auth0.Core.Http.FileUploadParameter.html#Auth0_Core_Http_FileUploadParameter">FileUploadParameter</a>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Auth0.Core.Http.FileUploadParameter.html#Auth0_Core_Http_FileUploadParameter">FileUploadParameter</a>&gt;</td>
                     <td><em>fileParameters</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The file parameters.</p>
+                    <td><p>The file parameters.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>urlSegments</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The URL segments.</p>
+                    <td><p>The URL segments.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
                     <td><em>headers</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The headers.</p>
+                    <td><p>The headers.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+                    <td><span class="xref">System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
                     <td><em>queryStrings</em></td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The query strings.</p>
+                    <td><p>The query strings.</p>
 </td>
                   </tr>
                 </tbody>
@@ -399,8 +399,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
-                    <td><p sourcefile="obj/api/Auth0.Core.Http.IApiConnection.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;T&gt;.</p>
+                    <td><span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span>&lt;T&gt;</td>
+                    <td><p>Task&lt;T&gt;.</p>
 </td>
                   </tr>
                 </tbody>
@@ -458,7 +458,6 @@
     </div>
     
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>

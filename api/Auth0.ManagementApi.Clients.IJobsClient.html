@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IJobsClient
    ">
-    <meta name="generator" content="docfx 2.5.3.0">
+    <meta name="generator" content="docfx 2.7.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,7 +70,7 @@
               
               <h1 id="Auth0_ManagementApi_Clients_IJobsClient" data-uid="Auth0.ManagementApi.Clients.IJobsClient">Interface IJobsClient
               </h1>
-              <div class="markdown level0 summary"><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Contains all the methods to call the /jobs endpoints.</p>
+              <div class="markdown level0 summary"><p>Contains all the methods to call the /jobs endpoints.</p>
 </div>
               <div class="markdown level0 conceptual"></div>
               <h6><strong>Namespace</strong>:Auth0.ManagementApi.Clients</h6>
@@ -89,7 +89,7 @@
                 <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Clients/IJobsClient.cs/#L23">View Source</a>
               </span>
               <h4 id="Auth0_ManagementApi_Clients_IJobsClient_GetAsync_System_String_" data-uid="Auth0.ManagementApi.Clients.IJobsClient.GetAsync(System.String)">GetAsync(String)</h4>
-              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets a job.</p>
+              <div class="markdown level1 summary"><p>Gets a job.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -109,7 +109,7 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>id</em></td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The ID of the job to retrieve.</p>
+                    <td><p>The ID of the job to retrieve.</p>
 </td>
                   </tr>
                 </tbody>
@@ -124,14 +124,14 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a>&gt;</td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A <a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a> instance containing the information about the job.</p>
+                    <td><span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span>&lt;<a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a>&gt;</td>
+                    <td><p>A <a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a> instance containing the information about the job.</p>
 </td>
                   </tr>
                 </tbody>
               </table>
               <h5 id="Auth0_ManagementApi_Clients_IJobsClient_GetAsync_System_String__remarks">Remarks</h5>
-              <div class="markdown level1 remarks"><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="2" sourceendlinenumber="2">This is useful to check the status of a job.</p>
+              <div class="markdown level1 remarks"><p>This is useful to check the status of a job.</p>
 </div>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
@@ -141,7 +141,7 @@
                 <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Clients/IJobsClient.cs/#L37">View Source</a>
               </span>
               <h4 id="Auth0_ManagementApi_Clients_IJobsClient_ImportUsersAsync_System_String_System_String_System_IO_Stream_System_Nullable_System_Boolean__System_String_" data-uid="Auth0.ManagementApi.Clients.IJobsClient.ImportUsersAsync(System.String,System.String,System.IO.Stream,System.Nullable{System.Boolean},System.String)">ImportUsersAsync(String, String, Stream, Nullable&lt;Boolean&gt;, String)</h4>
-              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Imports users to a connection from a file using a long running job. </p>
+              <div class="markdown level1 summary"><p>Imports users to a connection from a file using a long running job. </p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -161,31 +161,31 @@
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>connectionId</em></td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The connection identifier.</p>
+                    <td><p>The connection identifier.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>fileName</em></td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Name of the file.</p>
+                    <td><p>Name of the file.</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.IO.Stream</span></td>
                     <td><em>file</em></td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The file.</p>
+                    <td><p>The file.</p>
 </td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+                    <td><span class="xref">System.Nullable&lt;T&gt;</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
                     <td><em>upsert</em></td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Update the user if already exists</p>
+                    <td><p>Update the user if already exists</p>
 </td>
                   </tr>
                   <tr>
                     <td><span class="xref">System.String</span></td>
                     <td><em>externalId</em></td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Customer defined id</p>
+                    <td><p>Customer defined id</p>
 </td>
                   </tr>
                 </tbody>
@@ -200,14 +200,14 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a>&gt;</td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Task&lt;Job&gt;.</p>
+                    <td><span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span>&lt;<a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a>&gt;</td>
+                    <td><p>Task&lt;Job&gt;.</p>
 </td>
                   </tr>
                 </tbody>
               </table>
               <h5 id="Auth0_ManagementApi_Clients_IJobsClient_ImportUsersAsync_System_String_System_String_System_IO_Stream_System_Nullable_System_Boolean__System_String__remarks">Remarks</h5>
-              <div class="markdown level1 remarks"><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The documentation for the file format is <a href="https://auth0.com/docs/bulk-import">here</a>.</p>
+              <div class="markdown level1 remarks"><p>The documentation for the file format is <a href="https://auth0.com/docs/bulk-import">here</a>.</p>
 </div>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
@@ -217,7 +217,7 @@
                 <a href="https://github.com/auth0/auth0.net/blob/master/src/Auth0.ManagementApi/Clients/IJobsClient.cs/#L44">View Source</a>
               </span>
               <h4 id="Auth0_ManagementApi_Clients_IJobsClient_SendVerificationEmailAsync_Auth0_ManagementApi_Models_VerifyEmailJobRequest_" data-uid="Auth0.ManagementApi.Clients.IJobsClient.SendVerificationEmailAsync(Auth0.ManagementApi.Models.VerifyEmailJobRequest)">SendVerificationEmailAsync(VerifyEmailJobRequest)</h4>
-              <div class="markdown level1 summary"><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Send an email to the specified user that asks them to click a link to verify their email address.</p>
+              <div class="markdown level1 summary"><p>Send an email to the specified user that asks them to click a link to verify their email address.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -237,7 +237,7 @@
                   <tr>
                     <td><a class="xref" href="Auth0.ManagementApi.Models.VerifyEmailJobRequest.html#Auth0_ManagementApi_Models_VerifyEmailJobRequest">VerifyEmailJobRequest</a></td>
                     <td><em>request</em></td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <a class="xref" href="Auth0.ManagementApi.Models.VerifyEmailJobRequest.html#Auth0_ManagementApi_Models_VerifyEmailJobRequest">VerifyEmailJobRequest</a> containing the information of the user whose email you want verified.</p>
+                    <td><p>The <a class="xref" href="Auth0.ManagementApi.Models.VerifyEmailJobRequest.html#Auth0_ManagementApi_Models_VerifyEmailJobRequest">VerifyEmailJobRequest</a> containing the information of the user whose email you want verified.</p>
 </td>
                   </tr>
                 </tbody>
@@ -252,8 +252,8 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a>&gt;</td>
-                    <td><p sourcefile="obj/api/Auth0.ManagementApi.Clients.IJobsClient.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A <a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a> instance containing the information about the job.</p>
+                    <td><span class="xref">System.Threading.Tasks.Task&lt;TResult&gt;</span>&lt;<a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a>&gt;</td>
+                    <td><p>A <a class="xref" href="Auth0.Core.Job.html#Auth0_Core_Job">Job</a> instance containing the information about the job.</p>
 </td>
                   </tr>
                 </tbody>
@@ -296,7 +296,6 @@
     </div>
     
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>

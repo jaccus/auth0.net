@@ -60,6 +60,12 @@ namespace Auth0.ManagementApi.Models
         /// </summary>
         [JsonProperty("picture")]
         public string Picture { get; set; }
+
+        /// <summary>
+        /// Gets or sets whether the user's email change must be verified. True if it must be verified, otherwise false.
+        /// </summary>
+        [JsonProperty("verify_email")]
+        public bool? VerifyEmail { get; set; }
     }
 
 }

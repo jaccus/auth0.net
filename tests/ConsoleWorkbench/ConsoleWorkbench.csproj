@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>ConsoleWorkbench</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>ConsoleWorkbench</PackageId>
+    <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Auth0.AuthenticationApi\Auth0.AuthenticationApi.csproj" />
+    <ProjectReference Include="..\..\src\Auth0.Core\Auth0.Core.csproj" />
+    <ProjectReference Include="..\..\src\Auth0.ManagementApi\Auth0.ManagementApi.csproj" />
+  </ItemGroup>
+
+</Project>

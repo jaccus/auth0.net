@@ -16,8 +16,12 @@ TestResults
 # User-specific files
 *.suo
 *.user
+*.userosscache
 *.sln.docstates
 
+# Visual Studio 2015 cache/options directory
+ .vs/
+ 
 # Documentation
 docs/obj/
 docs/_site/
@@ -120,3 +124,4 @@ UpgradeLog*.XML
 
 # Why was this excluded??
 # src/Auth0.AuthenticationApi.Client/app.config
+/.vs/Auth0.Net/v15/sqlite3/storage.ide

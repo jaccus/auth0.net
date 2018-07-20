@@ -113,7 +113,6 @@ namespace Auth0.Core.Http
                             kvp => new KeyValuePair<string, string>(kvp.Key, kvp.Value?.ToString() ?? string.Empty)));
             return new StringContent(JsonConvert.SerializeObject(body, new JsonSerializerSettings
             {
-                NullValueHandling = NullValueHandling.Ignore
             }), Encoding.UTF8, "application/json");
         }
 
